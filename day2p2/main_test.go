@@ -67,7 +67,7 @@ func TestExample(t *testing.T) {
 	}
 
 	aim, x, y := simulate(0, 0, 0, commands)
-	if x != 15 || y != 10 {
+	if x != 15 || y != 60 {
 		t.Fatalf("expected final pos (15,10), got (aim:%d, %d,%d)", aim, x, y)
 	}
 }
